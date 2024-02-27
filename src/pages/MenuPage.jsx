@@ -3,8 +3,7 @@ import Carousel from "react-bootstrap/Carousel";
 import Precision from "../Components/images/Precision.png";
 import Van from "../Components/images/Van.jpg";
 import Logo from "../Components/images/Logo.png";
-// import Vagas from "./Vagas"; - colocar entre a div e layout <Vagas />
-// dai vai aparecer as vagas ativas na pagina principal
+
 
 export default function MenuPage(props) {
   return (

@@ -22,7 +22,6 @@ class AuthenticationService {
     } else {
       localStorage.setItem("error", data);
       console.error("Authentication failed. Server response:", data);
-      //throw new Error("Authentication failed!");
     }
   }
 

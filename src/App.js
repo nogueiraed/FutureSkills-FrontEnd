@@ -27,7 +27,7 @@ function App() {
     <Routes>
       <Route path="/DW" element={<RegDW />} />
       <Route path="/DwList" element={<DailyWorksheetList />} />
-      <Route path="/FormDailyWorksheet" element={<FormDailyWorksheet />} /> {/* Adicione esta rota para a página FormDailyWorksheet */}
+      <Route path="/FormDailyWorksheet" element={<FormDailyWorksheet />} />
       <Route path="/" element={<MenuPage />} />
       <Route path="*" element={<Page404 />} />
       <Route path="/login" element={<Login />} />
